@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue-regular {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.quarter-circle {
+    width: 80px; /* Diameter of the circle */
+    height: 80px; /* Diameter of the circle */
+    background-color: #3498db; /* Color of the quarter-circle */
+    border-radius: 0 0 200px 0px;
+    /* border-top-left-radius: 100px; Makes the top-left corner a quarter-circle */
+    position: absolute; /* Position it at the top-left of the page */
+    top: 0;
+    left: 0;
+}
+
+/* .name{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 200px;
+    padding-right: 10px;
+    font: bold;
+} */
+.profile-button{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,170,17,0.9921218487394958) 0%, rgba(255,111,0,1) 100%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: auto;
+
+}
+.profile-button1{
+    margin-left: 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,170,17,0.9921218487394958) 0%, rgba(255,111,0,1) 100%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.round-image {
+    width: 400px; /* Set the desired width */
+    height: 400px; /* Set the desired height (same as width for a circle) */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Ensure the image fits well inside the circle */
+    border: 5px solid #000; /* Optional: Add a border */
+}
+.first-text{
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+    font-family: monst;
+    padding-right: 10px;
+    padding-left: 200px;
+    padding-right: 10px;
+}
+.second-text{
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+    font-family: monst;
+    padding-right: 10px;
+}   
+.row{
+    align-items: flex-start;
+    display: flex;
+    align-items: stretch;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+}
+.box {
+    width: 600px; /* Set the desired width */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Minimal shadow effect */
+    padding: 20px; /* Spacing inside the box */
+    margin-bottom: 20px; /* Space between rows or other elements */
+    border: 1px solid #ddd; /* Optional: light border for additional definition */
+    display: flex;
+    flex-direction: column;;
+}
+.left-box{
+    border-left: 10px solid; /* Blue top border */
+    border-color: black;
+}
+.right-box{
+    border-left: 10px solid; /* Blue top border */
+    border-color: #9B111E;
+}
+.box h4 {
+    margin-bottom: 15px; /* Space below the title */
+    font-weight: bold; /* Optional: emphasize the title */
+}
+
+.box ul {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 17px; /* Smaller font size */
+    padding-left: 20px; /* Indent the list items */
+    margin: 0; /* Remove unnecessary margins */
+}
+.third-text{
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'League Spartan', sans-serif;
+    text-align: justify;
+    padding-right: 10px;
+}
+.fourth-text{
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'League Spartan', sans-serif;
+    padding-right: 10px;
+    text-align: justify;
+}
+.footer-section {
+    background-color: #f8f9fa; /* Light grey background */
+    border-top: 1px solid #ddd; /* Optional: border at the top */
+    color: #6c757d; /* Subtle text color */
+    font-size: 14px; /* Small font size */
+    text-align: center;
+}
+
+.footer-section a {
+    color: #9B111E; /* Dark red link color to match Daredevil's theme */
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.dual-title {
+    font-size: 36px; /* Large title */
+    font-weight: bold;
+    text-align: left;
+    padding-left: 200px;
+    margin-bottom: 20px;
+    color: #333; /* Default color for "Dual Justice:" */
+}
+
+.dual-title .man {
+    color: #000; /* Dark black or grey for "The Man" */
+}
+
+.dual-title .mask {
+    color: #9B111E; /* Crimson or dark red for "The Mask" */
+}
+
