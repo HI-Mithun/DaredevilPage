@@ -124,6 +124,7 @@
     font-weight: 600;
     text-align: justify;
     padding-right: 10px;
+    word-spacing: 0px;
 }
 .fourth-text{
     line-height: 1.5;
